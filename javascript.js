@@ -61,4 +61,19 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 3000);
         });
     }
+
+    /* --- SADECE 3. KUTU İÇİN FOTOĞRAF DEĞİŞTİRME --- */
+    const changeBtn = document.getElementById('changeBtn');
+    const targetImage = document.getElementById('targetImage');
+
+    if (changeBtn && targetImage) {
+        changeBtn.addEventListener('click', function () {
+            // Butona basıldığında images.png dosyasını gösterir
+            targetImage.src = "images.png";
+
+            // Görsel geri bildirim için buton metnini değiştirir
+            this.textContent = "Fotoğraf Güncellendi!";
+            this.style.backgroundColor = "#28a745"; // Yeşil renk
+        });
+    }
 });
