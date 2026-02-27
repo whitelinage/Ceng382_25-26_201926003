@@ -1,4 +1,4 @@
-[1] Gemini," Ana ekran tasarımı, 3 content box, ve gerekli buttonların yerleştirilmesi Button işlevleri. VS Code hakkında yardım." Gemini shared conversation. [Online]. Available: <https://gemini.google.com/share/60c0b46bfef2>. Accessed: Feb. 27, 2026.
+[1] Gemini," Ana ekran tasarımı, 3 content box, ve gerekli buttonların yerleştirilmesi Button işlevleri. VS Code hakkında yardım." Gemini shared conversation. [Online]. Available: <https://gemini.google.com/share/8f93baf57a70>. Accessed: Feb. 27, 2026.
 
 --------------------------------------------------------------------------
 
