@@ -1,0 +1,234 @@
+/* --- 1. GENEL AYARLAR VE SIFIRLAMA --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f7f9;
+    /* Sayfa arka planı */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* --- 2. ÜST BAR (TOPBAR) --- */
+.topbar {
+    background-color: #6d5d55;
+    /* Fotoğraftaki orijinal renk */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    gap: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.topnav {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.topnav__link {
+    color: #d1cbc8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.topnav__link:hover,
+.topnav__link.is-active {
+    color: white;
+}
+
+.user__pill {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+
+/* --- 3. SAYFA DÜZENİ (LAYOUT) --- */
+.layout {
+    display: flex;
+    min-height: calc(100vh - 60px);
+}
+
+/* YAN MENÜ (SIDEBAR) */
+.sidebar {
+    width: 250px;
+    background-color: white;
+    border-right: 1px solid #e0e4e8;
+    padding: 20px;
+}
+
+.sidebar__title {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.sidebar__link {
+    display: block;
+    text-decoration: none;
+    color: #555;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+}
+
+.sidebar__link:hover {
+    background-color: #f0f4f8;
+}
+
+.sidebar__link.is-active {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    font-weight: 600;
+}
+
+.sidebar__card {
+    background-color: #fff9e6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #ffeeba;
+}
+
+/* --- 4. ANA İÇERİK (CONTENT) --- */
+.content {
+    flex: 1;
+    padding: 30px;
+    max-width: 1200px;
+    /* Çok geniş ekranlarda dağılmaması için */
+}
+
+/* KART YAPISI */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.card__text {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* ETİKETLER (BADGES) */
+.badges {
+    display: flex;
+    gap: 8px;
+}
+
+.badge {
+    background-color: #f1f3f5;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    color: #666;
+}
+
+/* --- 5. TABLO VE BUTON --- */
+.tableWrap {
+    margin-top: 10px;
+    overflow-x: auto;
+}
+
+.dataTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.dataTable th {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 2px solid #edf2f7;
+    color: #777;
+    font-size: 0.85rem;
+}
+
+.dataTable td {
+    padding: 12px;
+    border-bottom: 1px solid #edf2f7;
+    font-size: 0.9rem;
+}
+
+/* Buton Ortalama */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn-sort {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-sort:hover {
+    background-color: #1557b0;
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+/* --- 6. RESİM ALANI --- */
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.card__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- 7. FOOTER --- */
+.footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e0e4e8;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.footer__link {
+    color: #1a73e8;
+    text-decoration: none;
+    margin-left: 10px;
+}
