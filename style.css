@@ -15,7 +15,7 @@ body {
 
 /* --- 2. ÜST BAR (TOPBAR) --- */
 .topbar {
-    background-color: #6d5d55;
+    background-color: #170f81;
     /* Fotoğraftaki orijinal renk */
     color: white;
     display: flex;
@@ -231,4 +231,44 @@ body {
     color: #1a73e8;
     text-decoration: none;
     margin-left: 10px;
+}
+
+/* --- YENİ İÇERİK: DALGA (WAVE) EFEKTİ --- */
+.wave-card {
+    position: relative;
+    /* Dalgaların bu kutunun içinde kalması için referans noktası */
+    overflow: hidden;
+    /* Büyüyen dalgaların kutu dışına taşmasını engeller */
+    cursor: crosshair;
+    /* Etkileşimi belli etmek için imleci artı işaretine çevirir (opsiyonel) */
+}
+
+/* Oluşacak her bir dalganın stili */
+.cursor-wave {
+    position: absolute;
+    background-color: rgba(219, 1, 1, 0.4);
+    /* Mevcut temanızın mavi renginin şeffaf hali */
+    border-radius: 50%;
+    /* Tam yuvarlak yapar */
+    pointer-events: none;
+    /* Dalgaların, altındaki metni seçmeyi engellememesi için */
+    transform: translate(-50%, -50%);
+    /* Tam fare ucundan çıkması için merkezler */
+    animation: waveAnim 0.8s linear forwards;
+    /* Animasyonu tetikler */
+}
+
+/* Dalganın büyüme ve kaybolma animasyonu */
+@keyframes waveAnim {
+    0% {
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 120px;
+        height: 120px;
+        opacity: 0;
+    }
 }

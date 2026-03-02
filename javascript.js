@@ -76,4 +76,32 @@ document.addEventListener('DOMContentLoaded', () => {
             this.style.backgroundColor = "#28a745"; // Yeşil renk
         });
     }
+
+    /* --- YENİ KUTU İÇİN DALGA (WAVE) EFEKTİ --- */
+    const waveCard = document.getElementById('waveCard');
+
+    if (waveCard) {
+        waveCard.addEventListener('mousemove', function (e) {
+            // 1. Yeni bir yuvarlak div oluştur
+            const wave = document.createElement('div');
+            wave.classList.add('cursor-wave');
+
+            // 2. Kutunun sayfadaki konumunu alarak farenin kutu içindeki koordinatlarını hesapla
+            const rect = waveCard.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            // 3. Yuvarlağı farenin olduğu yere yerleştir
+            wave.style.left = `${x}px`;
+            wave.style.top = `${y}px`;
+
+            // 4. Yuvarlağı kutunun içine ekle
+            waveCard.appendChild(wave);
+
+            // 5. Animasyon bitince (0.8 saniye) oluşan div'i HTML'den sil ki sayfa kasmasın
+            setTimeout(() => {
+                wave.remove();
+            }, 800);
+        });
+    }
 });
