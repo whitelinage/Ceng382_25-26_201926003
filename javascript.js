@@ -104,4 +104,26 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 800);
         });
     }
+    /* --- JS TRUE++ DEMOSU --- */
+    const trueIncrementBtn = document.getElementById('trueIncrementBtn');
+    const trueResultText = document.getElementById('trueResultText');
+    
+    // Başlangıç değişkenimiz
+    let benimDegerim = true;
+
+    if (trueIncrementBtn && trueResultText) {
+        trueIncrementBtn.addEventListener('click', function () {
+            // Değeri 1 artırıyoruz (true = 1 olur, 1+1 = 2 olur)
+            benimDegerim++; 
+            
+            // Sonucu ve yeni veri türünü (typeof) ekrana yazdırıyoruz
+            trueResultText.innerHTML = `<strong>Yeni değer:</strong> ${benimDegerim} (Türü: ${typeof benimDegerim})`;
+            
+            // Butonun görünümünü güncelleyip tekrar basılmasını kapatalım
+            this.textContent = "İşlem Tamamlandı! Sonuç: 2";
+            this.style.backgroundColor = "#28a745"; // Yeşil
+            this.style.cursor = "not-allowed"; // İmleci değiştir
+            this.disabled = true; // Butonu kilitle
+        });
+    }
 });

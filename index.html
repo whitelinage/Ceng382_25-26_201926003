@@ -120,6 +120,27 @@
         </div>
       </section>
 
+      <section class="card">
+        <h2 class="card__subtitle">JS'de "true++" Olayı (Type Coercion)</h2>
+        <p class="card__text">
+          Doğrudan <code>true++</code> yazmak JavaScript'te bir syntax hatasıdır. Ancak, <code>true</code> değerini bir değişkene atayıp arttırırsanız (<code>++</code>), JavaScript elindeki <strong>Boolean</strong> değeri zorla bir sayıya çevirir. <code>true</code> değeri matematiksel olarak <strong>1</strong> kabul edilir.
+        </p>
+
+        <div class="code-box">
+          let benimDegerim = true;<br>
+          benimDegerim++; <br>
+          console.log(benimDegerim); // Çıktı ne olur?
+        </div>
+
+        <p class="card__text" id="trueResultText" style="font-size: 1.1rem; color: #170f81;">
+          <strong>Şu anki değer:</strong> true (Türü: boolean)
+        </p>
+
+        <div class="btn-container">
+          <button id="trueIncrementBtn" class="btn-sort">Kodu Çalıştır ( ++ )</button>
+        </div>
+      </section>
+
       <footer class="footer">
         <span>© 2026 - Web Programming</span>
         <span class="footer__sep">•</span>

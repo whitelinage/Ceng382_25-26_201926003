@@ -10,3 +10,7 @@ Not : 2 numaralı linke erişim olmadığından güncellenmiştir.
 
 
 [4] Gemini, "HTML projesine yeni content box ekleme ve mause dalga (wave) efekti oluşturma." Gemini shared conversation. [Online]. Available: <https://gemini.google.com/share/b4a639380c32>. Accessed: Mar. 02, 2026.
+
+[5] "JS is Weird," jsisweird.com. [Online]. Available: https://jsisweird.com/. [Accessed: Mar. 5, 2026].
+
+[6] Gemini, "JavaScript'te 'true++' (Type Coercion) ve '[] == ![]' tuhaflıklarını anlatan content box ekleme." Gemini shared conversation. [Online]. Available: <https://gemini.google.com/share/fe3e05bc4694>. Accessed: Mar. 05, 2026.
