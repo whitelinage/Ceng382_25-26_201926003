@@ -1,10 +1,44 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Student Grades";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>Student Grade Table</h2>
+        
+        <form method="post" asp-page-handler="Calculate">
+            <button type="submit" class="btn btn-primary">Calculate Letter Grades</button>
+        </form>
+    </div>
+
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Student</th>
+                <th>Midterm</th>
+                <th>Final</th>
+                <th>Letter Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @* Dizilerin uzunluğu kadar dönüyoruz *@
+            @for (int i = 0; i < Model.StudentNames.Length; i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Model.StudentNames[i]</td>
+                    <td>@Model.MidtermGrades[i]</td>
+                    <td>@Model.FinalGrades[i]</td>
+                    <td class="fw-bold">@Model.LetterGrades[i]</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="alert alert-info">
+        <strong></strong> Calculation: <strong>%60</strong> Midterm + <strong>%40</strong> Final
+    </div>
 </div>
