@@ -487,9 +487,7 @@ C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compr
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\mpizwxvazi-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\ilok68dxe9-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\vjodwy1o5e-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\754bixpl2i-{0}-t1cqhe9u97-t1cqhe9u97.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\7ka45s5nsf-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\ck1apoag4e-{0}-sejl45xvog-sejl45xvog.gz
@@ -562,5 +560,7 @@ C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\refin
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\Lab3.pdb
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\Lab3.genruntimeconfig.cache
 C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\ref\Lab3.dll
-C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\9vw0zt43cp-{0}-m7zplglgxj-m7zplglgxj.gz
-C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\tmshn8qgi4-{0}-tq75ypaw9z-tq75ypaw9z.gz
+C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\mpizwxvazi-{0}-zmni8syem2-zmni8syem2.gz
+C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\9vw0zt43cp-{0}-54jhuk8w20-54jhuk8w20.gz
+C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\tmshn8qgi4-{0}-nb093ra2pz-nb093ra2pz.gz
+C:\Users\ea\Desktop\ceng353\Ceng382_25-26_201926003\Lab3\obj\Debug\net10.0\compressed\vjodwy1o5e-{0}-lf81b1peg4-lf81b1peg4.gz
