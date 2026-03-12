@@ -2695,19 +2695,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eren\\.nuget\\packages\\": {}
+    "C:\\Users\\ea\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eren\\Desktop\\ceng_353\\Ceng382_25-26_201926003\\Lab3\\Lab3.csproj",
+      "projectUniqueName": "C:\\Users\\ea\\Desktop\\ceng353\\Ceng382_25-26_201926003\\Lab3\\Lab3.csproj",
       "projectName": "Lab3",
-      "projectPath": "C:\\Users\\eren\\Desktop\\ceng_353\\Ceng382_25-26_201926003\\Lab3\\Lab3.csproj",
-      "packagesPath": "C:\\Users\\eren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eren\\Desktop\\ceng_353\\Ceng382_25-26_201926003\\Lab3\\obj\\",
+      "projectPath": "C:\\Users\\ea\\Desktop\\ceng353\\Ceng382_25-26_201926003\\Lab3\\Lab3.csproj",
+      "packagesPath": "C:\\Users\\ea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ea\\Desktop\\ceng353\\Ceng382_25-26_201926003\\Lab3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\eren\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ea\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2731,7 +2731,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -2777,7 +2777,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

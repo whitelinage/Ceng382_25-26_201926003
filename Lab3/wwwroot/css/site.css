@@ -8,7 +8,11 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -21,11 +25,159 @@ body {
   margin-bottom: 60px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+.form-floating>.form-control-plaintext::placeholder,
+.form-floating>.form-control::placeholder {
   color: var(--bs-secondary-color);
   text-align: end;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+.form-floating>.form-control-plaintext:focus::placeholder,
+.form-floating>.form-control:focus::placeholder {
   text-align: start;
+}
+
+/* --- ESKİ PROJEDEN GELEN KART YAPISI (GÜVENLİ SINIFLAR) --- */
+.my-card {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.my-card__title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.my-card__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.my-card__text {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* --- ETİKETLER --- */
+.my-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.my-badge {
+  background-color: #f1f3f5;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+/* --- TABLO VE BUTON --- */
+.my-tableWrap {
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.my-dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.my-dataTable th {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 2px solid #edf2f7;
+  color: #777;
+  font-size: 0.85rem;
+}
+
+.my-dataTable td {
+  padding: 12px;
+  border-bottom: 1px solid #edf2f7;
+  font-size: 0.9rem;
+}
+
+.my-muted {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.my-btn-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.my-btn-sort {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.my-btn-sort:hover {
+  background-color: #1557b0;
+  box-shadow: 0 4px 12px rgba(26, 115, 232, 0.3);
+}
+
+/* --- RESİM ALANI --- */
+.my-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.my-card__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- DALGA (WAVE) EFEKTİ --- */
+.my-wave-card {
+  position: relative;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.my-cursor-wave {
+  position: absolute;
+  background-color: rgba(219, 1, 1, 0.4);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: waveAnim 0.8s linear forwards;
+}
+
+@keyframes waveAnim {
+  0% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 120px;
+    height: 120px;
+    opacity: 0;
+  }
+}
+
+/* --- KOD BLOKLARI --- */
+.my-code-box {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
