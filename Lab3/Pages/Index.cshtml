@@ -42,3 +42,78 @@
         <strong></strong> Calculation: <strong>%40</strong> Midterm + <strong>%60</strong> Final
     </div>
 </div>
+<hr class="my-5">
+
+<section class="my-card">
+    <h1 id="title1" class="my-card__title">1. Hafta: HTML & CSS Sayfa İskeleti</h1>
+    <p id="text1" class="my-card__text">
+        Bu örnekte üst menü, yan menü ve ortada 3x5 tablo bulunuyor. Öğrenciler için
+        sınıfta “kutu modeli, padding, margin, border, hover, active” gibi konuları göstermek için ideal.
+    </p>
+    <div class="my-badges">
+        <span class="my-badge">HTML Semantik</span>
+        <span class="my-badge">Flexbox</span>
+        <span class="my-badge">Tablo</span>
+        <span class="my-badge">Hover</span>
+    </div>
+    <div class="my-btn-container">
+        <button id="scrambleBtn" class="my-btn-sort">Metni Karıştır (Rastgele)</button>
+    </div>
+</section>
+
+<section class="my-card">
+    <h2 class="my-card__subtitle">Örnek Veri Tablosu (3 x 5)</h2>
+    <div class="my-tableWrap">
+        <table class="my-dataTable" id="studentTable">
+            <thead>
+                <tr>
+                    <th>#</th><th>Öğrenci</th><th>Vize</th><th>Final</th><th>Harf</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Ayşe Kaya</td><td>78</td><td>85</td><td>BA</td></tr>
+                <tr><td>2</td><td>Mehmet Demir</td><td>65</td><td>72</td><td>CB</td></tr>
+                <tr><td>3</td><td>Elif Yılmaz</td><td>90</td><td>93</td><td>AA</td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="my-btn-container">
+        <button id="sortBtn" class="my-btn-sort">İsimleri Alfabetik Sırala ↕</button>
+    </div>
+    <p class="my-muted">Not: Bu tablo 3 satır (öğrenci) ve 5 sütun içerir.</p>
+</section>
+
+<section class="my-card my-wave-card" id="waveCard">
+    <h2 class="my-card__subtitle">Dalga Efektli Kutu</h2>
+    <p class="my-card__text">
+        Fare imlecini bu kutunun üzerinde gezdirin. Farenin hareket ettiği yerlerde dalga (wave) efektlerinin
+        oluştuğunu göreceksiniz.
+    </p>
+</section>
+
+<section class="my-card">
+    <div class="my-image-wrapper">
+        <img id="targetImage" src="~/images/1698363607465.png" alt="Açıklama Metni" class="my-card__image">
+    </div>
+    <div class="my-btn-container">
+        <button id="changeBtn" class="my-btn-sort">Fotoğrafı Değiştir</button>
+    </div>
+</section>
+
+<section class="my-card">
+    <h2 class="my-card__subtitle">JS'de "true++" Olayı (Type Coercion)</h2>
+    <p class="my-card__text">
+        Doğrudan <code>true++</code> yazmak JavaScript'te bir syntax hatasıdır. Ancak, <code>true</code> değerini bir değişkene atayıp arttırırsanız (<code>++</code>), JavaScript elindeki <strong>Boolean</strong> değeri zorla bir sayıya çevirir.
+    </p>
+    <div class="my-code-box">
+        let benimDegerim = true;<br>
+        benimDegerim++; <br>
+        console.log(benimDegerim); // Çıktı ne olur?
+    </div>
+    <p class="my-card__text" id="trueResultText" style="font-size: 1.1rem; color: #170f81;">
+        <strong>Şu anki değer:</strong> true (Türü: boolean)
+    </p>
+    <div class="my-btn-container">
+        <button id="trueIncrementBtn" class="my-btn-sort">Kodu Çalıştır ( ++ )</button>
+    </div>
+</section>
